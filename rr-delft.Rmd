@@ -1,0 +1,56 @@
+---
+title: "Being a better scientist with open and reproducible research"
+author: "Laurent Gatto"
+date: "May 16, 2019"
+output: ioslides_presentation
+---
+
+
+## Who
+
+I am Laurent Gatto.
+
+> Open science, reproducible research, data champion, computational
+> biology, proteomics, more omics, emacs, a lot of R, quite a bit of
+> running, and parenting.
+
+More about me: [https://lgatto.github.io/](https://lgatto.github.io/)
+
+## 
+
+The slides: 
+
+The content: https://lgatto.github.io/rr-publ/
+
+
+## Conclusions
+
+> **Standing on the shoulders of giants** only really makes sense in
+> the context of open and reproducible research.
+
+- If you are here (or have read this), chances are you are on the path
+  towards open and reproducible research.
+
+- You are the architect of the kind of research and researcher you
+  want to become. I hope these include openness and reproducibility.
+
+- It's a long path, that constantly evolves, depending on constraints,
+  aspirations, environment, ...
+  
+- The sky is the limit, be creative: work out the (open and
+  reproducible) research that works for you now ...
+  
+- ... and that you want to work (for you and others) in the future. 
+
+## Acknowledgements
+
+One of my advice was the **make allies**. I have been lucky to meet
+wonderful allies and friends along the path towards open and
+reproducible research that works for me. Among these, I would like to
+highlight [Corina Logan](https://twitter.com/LoganCorina), [Stephen
+Eglen](https://twitter.com/StephenEglen), [Marta
+Teperek](https://twitter.com/martateperek), [Kirstie
+Whitaker](https://twitter.com/kirstie_j), [Chris
+Hartgenink](https://twitter.com/chartgerink), [Naomie
+Penfold](https://twitter.com/npscience).
+

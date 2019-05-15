@@ -4,10 +4,8 @@ event at the TU Delft.
 
 Title: Being a better scientist with open and reproducible research
 
+The (short) slides are available here.
 
-Why open and reproducible research?
+A blog post is available [here](https://lgatto.github.io/rr-publ/).
 
-What can you do to improve research reproducibility as a
-- peer-reviewer
-- when publishing
-- early career researcher?
+
