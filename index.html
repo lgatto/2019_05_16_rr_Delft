@@ -107,21 +107,392 @@ slide:not(.current) .plotly.html-widget{
 
 <slide class=""><hgroup><h2>Who</h2></hgroup><article  id="who">
 
-<p>I am Laurent Gatto.</p>
+<p>I am <strong>Laurent Gatto</strong>, de Duve Institute, UCLouvain, Belgium.</p>
 
-<blockquote>
-<p>Open science, reproducible research, data champion, computational biology, proteomics, more omics, emacs, a lot of R, quite a bit of running, and parenting.</p>
-</blockquote>
+<pre >Open science, reproducible research, data champion, computational
+biology, proteomics, more omics, emacs, a lot of R, quite a bit of
+running, and parenting.</pre>
 
 <p>More about me: <a href='https://lgatto.github.io/' title=''>https://lgatto.github.io/</a></p>
 
+<p>Slides: <a href='https://lgatto.github.io/2019_05_16_rr_Delft/' title=''>https://lgatto.github.io/2019_05_16_rr_Delft/</a></p>
+
+<p>Blog post: <a href='https://lgatto.github.io/rr-publ/' title=''>https://lgatto.github.io/rr-publ/</a></p>
+
+<p><code>The material is available under CC-BY.</code></p>
+
 </article></slide><slide class=""><hgroup><h2></h2></hgroup><article  id="section">
 
-<p>The slides:</p>
+<p><strong>Disclaimer</strong>: I do not speak from authority. I speak of personal experience. My experience is in computational biology, bioinformatics and high throughput biology data. My experience doesn&#39;t directly translate to other fields or domains (for example when it comes to data privacy) or even to other personalities in the same field.</p>
 
-<p>The content: <a href='https://lgatto.github.io/rr-publ/' title=''>https://lgatto.github.io/rr-publ/</a></p>
+</article></slide><slide class=""><hgroup><h2>Notes</h2></hgroup><article  id="notes" class="build">
 
-</article></slide><slide class=""><hgroup><h2>Conclusions</h2></hgroup><article  id="conclusions">
+<p>A piece of open research doesn&#39;t automatically make it good, where good is defined as of high academic quality</p>
+
+<p>A piece of reproducible research doesn&#39;t automatically make it good, where good is defined as of high academic quality.</p>
+
+</article></slide><slide class=""><hgroup><h2>Open and reproducible research</h2></hgroup><article  id="open-and-reproducible-research">
+
+<blockquote>
+<p><code>Open != reproducible</code></p>
+</blockquote>
+
+<p>Open research and reproducible research aren&#39;t the same thing, and one doesn&#39;t imply the other. They are historically also very different.</p>
+
+<blockquote class="twitter-tweet" data-cards="hidden" data-lang="en">
+
+<p lang="en" dir="ltr">
+
+Many people seem to think that <a href="https://twitter.com/hashtag/OpenScience?src=hash&amp;ref_src=twsrc%5Etfw">#OpenScience</a> &amp; the reproducibility crisis in psychology are somehow causally related. They are not. Open science is decades old &amp; did not focus on reproducibility as a single issue — more here: <a href="https://t.co/KpJHIEqPj3">https://t.co/KpJHIEqPj3</a> &amp; here: <a href="https://t.co/KdMeK6PCUT">https://t.co/KdMeK6PCUT</a> <a href="https://t.co/qF5yPTqNqu">pic.twitter.com/qF5yPTqNqu</a>
+
+</p>
+
+— Olivia Guest | Ολίβια Γκεστ (<span class="cite">@o_guest</span>) <a href="https://twitter.com/o_guest/status/1068791012481470464?ref_src=twsrc%5Etfw">December 1, 2018</a>
+
+</blockquote>
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article  id="section-1">
+
+<ul>
+<li><p>World Data Center system (now the World Data System) in 1966.</p></li>
+<li><p>MEDLINE (now PubMed) in 1966.</p></li>
+<li><p>Open science has seen a continuous evolution since the 17th century, with the advent of dissemination of research in scientific journals and the societal demand to access scientific knowledge at large. Technology and communication has further accelerated this evolution, and put it in the spot light among researchers and academics (for for examples funder mandates) and more widely in the press with the cost of publications (see for example this Guardian <em>long read</em> article <a href='https://www.theguardian.com/science/2017/jun/27/profitable-business-scientific-publishing-bad-for-science' title=''>Is the staggeringly profitable business of scientific publishing bad for science?</a> or the <a href='https://paywallthemovie.com/' title=''>Paywall</a> movie).</p></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2><a href='https://en.wikipedia.org/wiki/Mertonian_norms' title=''>The Mertonian norms</a> (1942)</h2></hgroup><article  id="the-mertonian-norms-1942">
+
+<ul>
+<li><p><strong>Communism</strong>: all scientists should have common ownership of scientific goods (intellectual property), to promote collective collaboration; secrecy is the opposite of this norm.</p></li>
+<li><p><strong>Universalism</strong>: scientific validity is independent of the sociopolitical status/personal attributes of its participants.</p></li>
+<li><p><strong>Disinterestedness</strong>: scientific institutions act for the benefit of a common scientific enterprise, rather than for the personal gain of individuals within them</p></li>
+<li><p><strong>Organised scepticism</strong>: scientific claims should be exposed to critical scrutiny before being accepted: both in methodology and institutional codes of conduct.</p></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article  id="section-2">
+
+<p>Open science/research is the process of transparent dissemination and access to knowledge, that can be applied to various scientific practices (The six principles of open science image from Wikipedia):</p>
+
+<img src='https://upload.wikimedia.org/wikipedia/commons/9/9c/Open_Science_-_Prinzipien.png' title='fig:'/>
+
+</article></slide><slide class=""><hgroup><h2>As a result</h2></hgroup><article  id="as-a-result" class="build">
+
+<blockquote>
+<p>Open science/research can mean different things to different people, in particular when declined along its many technical and philosophical attributes.</p>
+</blockquote>
+
+<p>Take home message:</p>
+
+<p><code>Open isn&#39;t binary, it&#39;s a gradient.</code></p>
+
+<p>How to be an open scientist:</p>
+
+<p><code>Let&#39;s be open and understanding of different situations and constraints.</code></p>
+
+</article></slide><slide class=""><hgroup><h2>Why becoming an open research practitioners (1)</h2></hgroup><article  id="why-becoming-an-open-research-practitioners-1">
+
+<ul>
+<li><p>It&#39;s the right thing to do. See the <strong>The Mertonian norms</strong>&#8230; Or is it?</p></li>
+<li><p><strong>Benefits for your academic career</strong>: some examples from the <a href='https://lgatto.github.io/EPFL-open-science/' title=''><strong>Open as a career boost</strong></a> paragraph.</p></li>
+<li><p><strong>Networking opportunities</strong></p></li>
+<li><p><strong>Get more funding</strong>: Meet funder requirements, and qualify for special funds such as the Wellcome Trust <a href='https://wellcome.ac.uk/funding/schemes/open-research-fund' title=''>Open Research Fund</a>.</p></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Why becoming an open research practitioners (2)</h2></hgroup><article  id="why-becoming-an-open-research-practitioners-2">
+
+<ul>
+<li><strong>Get that promotion</strong>: Open research is increasingly recognised in promotion and tenure. See also <a href='https://cos.io/blog/are-reproducibility-and-open-science-starting-matter-tenure-and-promotion-review/' title=''>Reproducibility and open science are starting to matter in tenure and promotion</a> July 14th, 2017, Brian Nosek) and the EU&#39;s <a href='https://cdn1.euraxess.org/sites/default/files/policy_library/os-rewards-wgreport-final_integrated_0.pdf' title=''>Evaluation of Research Careers fully acknowledging Open Science Practice</a> defines an Open Science Career Assessment Matrix (OS-CAM):</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>But are there <strong>any risks</strong>?</h2></hgroup><article  id="but-are-there-any-risks">
+
+<p><code>Does it take more time to work openly?</code></p>
+
+<p>Isn&#39;t it worth investing time is managing data in a way that others (including future self) can find and understand it? That&#39;s, IMHO, particularly important from a group leader&#39;s perspective, where I want to build a corpus of data/software/research that other lab members can find, mine and re-use.</p>
+
+<p><code>Are senior academics always supportive?</code></p>
+
+<p>No.</p>
+
+<p><code>Is there a risk of being scooped?</code></p>
+
+<p>There certainly is a benefit if releasing one&#39;s research early!</p>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article  id="section-3">
+
+<p>But, importantly, working with open and reproducible research in mind doesn&#39;t mean releasing everything prematurely, it means</p>
+
+<ul>
+<li><p>managing research in a way one can find data and results at every stage</p></li>
+<li><p>one can reproduce results, re-run/compare them with new data or different methods/parameters, and</p></li>
+<li><p>one can release data (or parts thereof) when/if appropriate.</p></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>So, are there any risks?</h2></hgroup><article  id="so-are-there-any-risks">
+
+<blockquote>
+<p>The <a href='http://bulliedintobadscience.org/' title=''>Bullied Into Bad Science</a> campaign is an initiative by early career researchers (ECRs) for early career researchers who aim for a fairer, more open and ethical research and publication environment.</p>
+</blockquote>
+
+<p><img src="https://raw.githubusercontent.com/BulliedIntoBadScience/stickers/master/logo_light.png" width="300" alt="Bullied Into Bad Science"></p>
+
+</article></slide><slide class=""><hgroup><h2>Why reproducibility is important</h2></hgroup><article  id="why-reproducibility-is-important">
+
+<ul>
+<li><p>For <strong>scientific reasons</strong>: think reproducibility crisis.</p></li>
+<li><p>For <strong>political reasons</strong>: public trust in science, in data, in experts; without (public) trust in science and research, there won&#39;t be any funding anymore.</p></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>But what do we mean by reproducibility?</h2></hgroup><article  id="but-what-do-we-mean-by-reproducibility">
+
+<p>From a <a href='https://lgatto.github.io/rr-what-should-be-our-goals/' title=''><em>But what to we mean by reproducibility?</em></a> blog post.</p>
+
+<ul>
+<li><strong>Repeat</strong> my experiment i.e. obtain the same tables/graphs/results using the same setup (data, software, &#8230;) in the same lab or on the same computer.</li>
+<li><strong>Reproduce</strong> an experiment (not mine) i.e. obtain the same tables/graphs/results in a different lab or on a different computer, using the same setup.</li>
+<li><strong>Replicate</strong> an experiment, i.e. obtain the same (similar enough) tables/graphs/results in a different set up.</li>
+<li>Finally, <strong>re-use</strong> the information/knowledge from one experiment to run a different experiment with the aim to confirm results from scratch.</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article  id="section-4">
+
+<p>Another view (from a talk by <a href='https://figshare.com/articles/Publishing_a_reproducible_paper/4720996/1' title=''>Kirstie Whitaker</a>):</p>
+
+<table class = 'rmdtable'>
+<tr class="header">
+<th align="left"></th>
+<th align="left">Same Data</th>
+<th align="left">Different Data</th>
+</tr>
+<tr class="odd">
+<td align="left"><strong>Same Code</strong></td>
+<td align="left">reproduce</td>
+<td align="left">replicate</td>
+</tr>
+<tr class="even">
+<td align="left"><strong>Different Code</strong></td>
+<td align="left">robust</td>
+<td align="left">generalisable</td>
+</tr>
+</table>
+
+<p><br/> <br/></p>
+
+<p>See also this opinion piece by Jeffrey T. Leek and Roger D. Peng, <a href='https://www.pnas.org/content/112/6/1645' title=''><em>Reproducible research can still be wrong: Adopting a prevention approach</em></a>.</p>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article  id="section-5">
+
+<p>From</p>
+
+<blockquote>
+<p>Gabriel Becker <em>An Imperfect Guide to Imperfect Reproducibility</em> (2019) May Institute for Computational Proteomics (<a href='https://gmbecker.github.io/MayInstituteKeynote2019/outline.html' title=''>https://gmbecker.github.io/MayInstituteKeynote2019/outline.html</a>)</p>
+</blockquote>
+
+<p><code>(Computational) Reproducibility Is Not The Point</code></p>
+
+</article></slide><slide class=""><hgroup><h2>The goal is trust, verification and guarantees:</h2></hgroup><article  id="the-goal-is-trust-verification-and-guarantees">
+
+<ul>
+<li><strong>Trust in Reporting</strong> - result is accurately reported</li>
+<li><strong>Trust in Implementation</strong> - analysis code successfully implements chosen methods</li>
+<li><strong>Statistical Trust</strong> - data and methods are (still) appropriate</li>
+<li><strong>Scientific Trust</strong> - result convincingly supports claim(s) about underlying systems or truths</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Take home messages</h2></hgroup><article  id="take-home-messages" class="build">
+
+<p><code>Reproducibility isn&#39;t binary, it&#39;s a gradient.</code></p>
+
+<p><code>Reproducibility isn&#39;t easy.</code></p>
+
+</article></slide><slide class=""><hgroup><h2>Why becoming a reproducible research practitioners</h2></hgroup><article  id="why-becoming-a-reproducible-research-practitioners">
+
+<p>Florian Markowetz, <a href='https://doi.org/10.1186/s13059-015-0850-7' title=''><strong>Five selfish reasons to work reproducibly</strong></a>, Genome Biology 2015, 16:274.</p>
+
+<blockquote>
+<p>And so, my fellow scientists: ask not what you can do for reproducibility; ask what reproducibility can do for you! Here, I present five reasons why working reproducibly pays off in the long run and is in the self-interest of every ambitious, career-oriented scientist.</p>
+</blockquote>
+
+</article></slide><slide class=""><hgroup><h2>Five selfish reasons to work reproducibly</h2></hgroup><article  id="five-selfish-reasons-to-work-reproducibly" class="build">
+
+<ol>
+<li><strong>reproducibility helps to avoid disaster</strong></li>
+<li><strong>reproducibility makes it easier to write papers</strong></li>
+<li><strong>reproducibility helps reviewers see it your way</strong></li>
+<li><strong>reproducibility enables continuity of your work</strong></li>
+<li><strong>reproducibility helps to build your reputation</strong></li>
+</ol>
+
+<p>And career perspectives: <a href='https://www.nature.com/news/faculty-promotion-must-assess-reproducibility-1.22596' title=''>Faculty promotion must assess reproducibility</a>.</p>
+
+</article></slide><slide class=""><hgroup><h2>What can you do to improve trust in (your) research?</h2></hgroup><article  id="what-can-you-do-to-improve-trust-in-your-research" class="build">
+
+<ol>
+<li><strong>Be an open research practitioners</strong></li>
+<li><strong>Be an reproducible research practitioners</strong></li>
+</ol>
+
+<p>Includes (but not limited to)</p>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article  id="section-6" class="build">
+
+<p><code>Preprints are the best!</code></p>
+
+<p>Read, post, review and cite <strong>preprints</strong> (see <a href='https://asapbio.org/' title=''>ASAPbio</a> for lots of resources about preprints).</p>
+
+<p><code>Promoting open research through peer review</code></p>
+
+<ul>
+<li>Accept sound/valid research and provide constructive comments</li>
+</ul>
+
+<p>and hence</p>
+
+<ul>
+<li>Focus firstly on the validity of the research by inspecting the data, software and method. If the methods and/or data fail, the rest is meaningless.</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article  id="section-7">
+
+<ol>
+<li><p><strong>Availability</strong>: Are the data/software/methods accessible and understandable in a way that would allow an informed researcher to reproduce and/or verify the results underlying the claims?</p></li>
+<li><p><strong>Meta-data</strong>: It&#39;s of course not enough to provide a wild dump of the data/software/&#8230;, but these need to be appropriately documented.</p></li>
+<li><p><strong>Do numbers match?</strong>: The first thing when reproducing someone&#39;s analysis is to match the data files to the experimental design.</p></li>
+<li><p><strong>What data, what format</strong>: Is the data readable with standard and open/free software? Are the raw and processed available, and have the authors described how to get from one to the other?</p></li>
+<li><p><strong>License</strong>: Is the data shared in a way that allows users to re-use it. Under what conditions?</p></li>
+</ol>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article  id="section-8">
+
+<p>Make sure that the data adhere to the <strong><a href='http://www.nature.com/articles/sdata201618' title=''>FAIR</a> principles</strong>:</p>
+
+<p><code>Findable and Accessible and Interoperable and Reusable</code></p>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article  id="section-9">
+
+<p>As a quick note, my <em>ideal</em> review system would be one where</p>
+
+<ol>
+<li><p>Submit your data to a repository, where it gets checked (by specialists, data scientists, data curators) for quality, annotation, meta-data.</p></li>
+<li><p>Submit your research with a link to the peer reviewed data. First review the intro and methods, then only the results (to avoid positive results bias).</p></li>
+</ol>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article  id="section-10">
+
+<p>When talking about open research and peer review, one logical extension is <strong>open peer review</strong>.</p>
+
+<p>While I personally value open peer review and practice it when possible, it can be a difficult issue for ECRs, exposing them unnecessarily when reviewing work from prominent peers. It also can reinforce an already unwelcoming environment for underrepresented minorities. See more about this in the <em>Inclusivity: open science and open science</em> section below.</p>
+
+</article></slide><slide class=""><hgroup><h2>Make allies</h2></hgroup><article  id="make-allies">
+
+<blockquote>
+<p>This is <strong>very</strong> important!</p>
+</blockquote>
+
+<ul>
+<li>Other ECR</li>
+<li>Librarians</li>
+<li>Data stewards/champions</li>
+<li>Research Software engineers</li>
+<li>On/off-line networking</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article  id="section-11">
+
+<p>Open research can lead to collaborative research (here&#39;s <a href='https://lgatto.github.io/msnbase-contribs/' title=''>one example</a> I am very proud of).</p>
+
+<blockquote class="twitter-tweet" data-lang="en">
+
+<p lang="en" dir="ltr">
+
+The credit goes to the outstanding contributions and contributors!
+
+</p>
+
+— Laurent Gⓐtt⓪ (<span class="cite">@lgatt0</span>) <a href="https://twitter.com/lgatt0/status/1125497076241043456?ref_src=twsrc%5Etfw">May 6, 2019</a>
+
+</blockquote>
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+</article></slide><slide class=""><hgroup><h2>Just do it!</h2></hgroup><article  id="just-do-it">
+
+<p><code>Build openness at the core your research</code></p>
+
+<p>(according to you possibilities)</p>
+
+<p>Open and reproducible research doesn&#39;t work if it&#39;s an afterthought.</p>
+
+</article></slide><slide class=""><hgroup><h2>Technical solutions</h2></hgroup><article  id="technical-solutions">
+
+<ul>
+<li><p>Scripting, scripting, scripting.</p></li>
+<li><p>Avoid manual steps.</p></li>
+<li><p>Document everything, especially manual steps (which you should avoid anyway).</p></li>
+<li><p>Version control, such as git/<a href='https://lgatto.github.io/github-intro/' title=''>github</a>, bitbucket, &#8230;</p></li>
+<li><p>Literate analyses: reproducible documents with R markdown, Sweave (R with LaTeX), Juyter notebooks, &#8230;</p></li>
+<li><p>Shareable compute environments (docker containers).</p></li>
+<li><p>Document and <strong>share</strong> all artefacts related to your research (when possible): data, code, <a href='https://www.protocols.io/' title=''>protocols</a>, &#8230;</p></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Inclusivity</h2></hgroup><article  id="inclusivity">
+
+<p><a href='https://lgatto.github.io/open-and-open/' title=''>Open research and open research</a></p>
+
+<p>There is</p>
+
+<p><code>Open Science as in widely disseminated and openly accessible</code></p>
+
+<p>and</p>
+
+<p><code>Open Science as in inclusive and welcoming</code></p>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article  id="section-12">
+
+<blockquote class="twitter-tweet" data-lang="en">
+
+<p lang="en" dir="ltr">
+
+The primary value proposition of <a
+href="https://twitter.com/hashtag/openscience?src=hash">#openscience</a> is that diverse contributions allow better critique, refinement, and application 3/n
+
+</p>
+
+— CⓐmeronNeylon (<span class="cite">@CameronNeylon</span>) <a
+href="https://twitter.com/CameronNeylon/status/895546764861853696">August 10, 2017</a>
+
+</blockquote>
+
+<script async
+src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en">
+
+<p lang="en" dir="ltr">
+
+It was a damned hard community to break into. Any step I took to be more open, I felt attacked for not doing enough/doing it right.
+
+</p>
+
+— Christie Bahlai (<span class="cite">@cbahlai</span>) <a href="https://twitter.com/cbahlai/status/871413258107981824">June 4, 2017</a>
+
+</blockquote>
+
+<script async
+src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article  id="section-13">
+
+<p>Even if there are efforts to promote diversity, under-represented minorities (URM) don&#39;t necessarily feel <a href='http://science.sciencemag.org/content/357/6356/1101.full' title=''>included</a>. When it comes to open science/research URMs can be further discriminated against by greater exposure or, can&#39;t always afford to be vocal.</p>
+
+<ul>
+<li>Not everybody has the privilege to be open.</li>
+<li>There are different levels in how open one wants, or how open one could afford to be.</li>
+<li>Every voice and support is welcome.</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Conclusions (1)</h2></hgroup><article  id="conclusions-1">
 
 <blockquote>
 <p><strong>Standing on the shoulders of giants</strong> only really makes sense in the context of open and reproducible research.</p>
@@ -130,6 +501,15 @@ slide:not(.current) .plotly.html-widget{
 <ul>
 <li><p>If you are here (or have read this), chances are you are on the path towards open and reproducible research.</p></li>
 <li><p>You are the architect of the kind of research and researcher you want to become. I hope these include openness and reproducibility.</p></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Conclusions (2)</h2></hgroup><article  id="conclusions-2">
+
+<blockquote>
+<p><strong>Standing on the shoulders of giants</strong> only really makes sense in the context of open and reproducible research.</p>
+</blockquote>
+
+<ul>
 <li><p>It&#39;s a long path, that constantly evolves, depending on constraints, aspirations, environment, &#8230;</p></li>
 <li><p>The sky is the limit, be creative: work out the (open and reproducible) research that works for you now &#8230;</p></li>
 <li><p>&#8230; and that you want to work (for you and others) in the future.</p></li>
