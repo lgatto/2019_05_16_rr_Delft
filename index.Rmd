@@ -392,6 +392,11 @@ Incentive structure isn’t in place yet.
 - Research Software engineers
 - On/off-line networking
 
+Collaborative work and cooperation is certainly one important concept
+that gravitates around open science/research (see the Mertonian norm
+of *communism*), but that isn't necessary nor sufficient for open
+science.
+
 ##
 
 Open research **can** lead to **collaborative research**. The
@@ -402,12 +407,6 @@ of.
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">The credit goes to the outstanding contributions and contributors!</p>&mdash; Laurent Gⓐtt⓪ (@lgatt0) <a href="https://twitter.com/lgatt0/status/1125497076241043456?ref_src=twsrc%5Etfw">May 6, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<br/>
-
-Collaborative work and cooperation is certainly one important concept
-that gravitates around open science/research (see the Mertonian norm
-of *communism*), but that isn't necessary nor sufficient for open
-science.
 
 
 ## Just do it!
