@@ -52,21 +52,6 @@ doesn't imply the other. They are historically also very different.
 <blockquote class="twitter-tweet" data-cards="hidden" data-lang="en"><p lang="en" dir="ltr">Many people seem to think that <a href="https://twitter.com/hashtag/OpenScience?src=hash&amp;ref_src=twsrc%5Etfw">#OpenScience</a> &amp; the reproducibility crisis in psychology are somehow causally related. They are not. Open science is decades old &amp; did not focus on reproducibility as a single issue — more here: <a href="https://t.co/KpJHIEqPj3">https://t.co/KpJHIEqPj3</a> &amp; here: <a href="https://t.co/KdMeK6PCUT">https://t.co/KdMeK6PCUT</a> <a href="https://t.co/qF5yPTqNqu">pic.twitter.com/qF5yPTqNqu</a></p>&mdash; Olivia Guest | Ολίβια Γκεστ (@o_guest) <a href="https://twitter.com/o_guest/status/1068791012481470464?ref_src=twsrc%5Etfw">December 1, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-## 
-
-  
-Open science has seen a continuous evolution since the 17th century,
-with the advent of dissemination of research in scientific journals
-and the societal demand to access scientific knowledge at
-large. Technology and communication has further accelerated this
-evolution, and put it in the spot light among researchers and
-academics (for for examples funder mandates) and more widely in the
-press with the cost of publications (see for example this Guardian
-*long read* article [Is the staggeringly profitable business of
-scientific publishing bad for
-science?](https://www.theguardian.com/science/2017/jun/27/profitable-business-scientific-publishing-bad-for-science)
-or the [Paywall](https://paywallthemovie.com/) movie).
-
 ## [The Mertonian norms](https://en.wikipedia.org/wiki/Mertonian_norms) (1942)
 
 - **Communism**: all scientists should have common ownership of
@@ -83,6 +68,21 @@ or the [Paywall](https://paywallthemovie.com/) movie).
 - **Organised scepticism**: scientific claims should be exposed to
   critical scrutiny before being accepted: both in methodology and
   institutional codes of conduct.
+
+## 
+
+  
+Open science has seen a continuous evolution since the 17th century,
+with the advent of dissemination of research in scientific journals
+and the societal demand to access scientific knowledge at
+large. Technology and communication has further accelerated this
+evolution, and put it in the spot light among researchers and
+academics (for for examples funder mandates) and more widely in the
+press with the cost of publications (see for example this Guardian
+*long read* article [Is the staggeringly profitable business of
+scientific publishing bad for
+science?](https://www.theguardian.com/science/2017/jun/27/profitable-business-scientific-publishing-bad-for-science)
+or the [Paywall](https://paywallthemovie.com/) movie).
 
 ##
 
