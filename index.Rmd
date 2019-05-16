@@ -1,5 +1,5 @@
 ---
-title: "Being a better scientist with open and reproducible research"
+title: "Becoming a better scientist with open and reproducible research"
 author: "Laurent Gatto"
 date: "May 16, 2019"
 output: ioslides_presentation
@@ -248,6 +248,10 @@ From
 
 `Reproducibility isn't easy.`
 
+
+
+(But then why becoming a reproducible research practitioners?)
+
 ## Why becoming a reproducible research practitioners
 
 Florian Markowetz, [**Five selfish reasons to work
@@ -346,6 +350,32 @@ unnecessarily when reviewing work from prominent peers. It also can
 reinforce an already unwelcoming environment for underrepresented
 minorities. See more about this in the *Inclusivity: open science and
 open science* section below.
+
+## Registered reports
+
+Define you data collection and analysis protocol in advance. Get it
+reviewed and, if accepted, get right to publish once data have been
+collected and analysed, irrespective of the (positive or negative)
+result.
+
+
+
+See
+[https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000246](Open
+science challenges, benefits and tips in early career and beyond)
+(2019).
+
+**Three challenges**
+
+- Restrictions on flexibility
+- The time cost
+- Incentive structure isn’t in place yet
+
+**Three benefits**
+
+- Greater faith in research
+- New helpful systems (see technical solutions below)
+- Investment in your future
 
 ## Make allies 
 
