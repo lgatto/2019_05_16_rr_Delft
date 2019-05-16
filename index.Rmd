@@ -243,12 +243,9 @@ But rather
 
 ## Take home messages {.build}
 
-`Reproducibility isn't binary, it's a gradient.`
-
-
+`Reproducibility isn't binary, it's a gradient, it's multidisciplinary, it's multidimensional.`
 
 `Reproducibility isn't easy.`
-
 
 
 (But then why becoming a reproducible research practitioners?)
