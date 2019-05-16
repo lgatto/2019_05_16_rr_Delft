@@ -69,8 +69,7 @@ doesn't imply the other. They are historically also very different.
   critical scrutiny before being accepted: both in methodology and
   institutional codes of conduct.
 
-## 
-
+## There isn't only one type of open science
   
 Open science has seen a continuous evolution since the 17th century,
 with the advent of dissemination of research in scientific journals
@@ -95,7 +94,7 @@ practices (The six principles of open science image from Wikipedia):
 ## As a result {.build}
 
 > Open science/research can mean different things to different people,
-> in particular when declined along its many technical and
+> in particular when declined it along its many technical and
 > philosophical attributes.
 
 Take home message:
@@ -152,15 +151,15 @@ There certainly is a benefit if releasing one's research early!
 ## 
 
 But, importantly, working with open and reproducible research in mind
-doesn't mean releasing everything prematurely, it means
+**doesn't mean releasing everything prematurely**, it means
 
-- managing research in a way one can find data and results at every
-  stage
+- **managing** research in a way one can find data and results at
+  every stage
 
-- one can reproduce results, re-run/compare them with new data or
-  different methods/parameters, and
+- one can **reproduce/repeat** results, re-run/compare them with new
+  data or different methods/parameters, and
 
-- one can release data (or parts thereof) when/if appropriate.
+- one can **release** data (or parts thereof) when/if **appropriate**.
 
 
 ## So, are there any risks? 
@@ -184,10 +183,6 @@ doesn't mean releasing everything prematurely, it means
 
 ## But what do we mean by reproducibility?
 
-From a [*But what to we mean by
-reproducibility?*](https://lgatto.github.io/rr-what-should-be-our-goals/)
-blog post.
-
 - **Repeat** my experiment i.e. obtain the same tables/graphs/results
   using the same setup (data, software, ...) in the same lab or on the
   same computer.
@@ -199,6 +194,10 @@ blog post.
 - Finally, **re-use** the information/knowledge from one experiment to
   run a different experiment with the aim to confirm results from
   scratch.
+
+(From a [*But what to we mean by
+reproducibility?*](https://lgatto.github.io/rr-what-should-be-our-goals/)
+blog post.)
 
 ##
 
