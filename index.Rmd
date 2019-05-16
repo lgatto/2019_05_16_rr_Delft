@@ -1,5 +1,5 @@
 ---
-title: "Becoming a better scientist with open and reproducible research"
+title: "Becoming a better scientist with *open* and *reproducible* research"
 author: "Laurent Gatto"
 date: "May 16, 2019"
 output: ioslides_presentation
@@ -54,21 +54,18 @@ doesn't imply the other. They are historically also very different.
 
 ## 
 
-- World Data Center system (now the World Data System) in 1966.
-
-- MEDLINE (now PubMed) in 1966.
   
-- Open science has seen a continuous evolution since the 17th century,
-  with the advent of dissemination of research in scientific journals
-  and the societal demand to access scientific knowledge at
-  large. Technology and communication has further accelerated this
-  evolution, and put it in the spot light among researchers and
-  academics (for for examples funder mandates) and more widely in the
-  press with the cost of publications (see for example this Guardian
-  *long read* article [Is the staggeringly profitable business of
-  scientific publishing bad for
-  science?](https://www.theguardian.com/science/2017/jun/27/profitable-business-scientific-publishing-bad-for-science)
-  or the [Paywall](https://paywallthemovie.com/) movie).
+Open science has seen a continuous evolution since the 17th century,
+with the advent of dissemination of research in scientific journals
+and the societal demand to access scientific knowledge at
+large. Technology and communication has further accelerated this
+evolution, and put it in the spot light among researchers and
+academics (for for examples funder mandates) and more widely in the
+press with the cost of publications (see for example this Guardian
+*long read* article [Is the staggeringly profitable business of
+scientific publishing bad for
+science?](https://www.theguardian.com/science/2017/jun/27/profitable-business-scientific-publishing-bad-for-science)
+or the [Paywall](https://paywallthemovie.com/) movie).
 
 ## [The Mertonian norms](https://en.wikipedia.org/wiki/Mertonian_norms) (1942)
 
@@ -115,13 +112,13 @@ How to be an open scientist:
 
 - **Benefits for your academic career**: some examples from the
   [**Open as a career
-  boost**](https://lgatto.github.io/EPFL-open-science/) paragraph.
+  boost**](https://lgatto.github.io/EPFL-open-science/) paragraph
 
 - **Networking opportunities**
 
 - **Get more funding**: Meet funder requirements, and qualify for
   special funds such as the Wellcome Trust [Open Research
-  Fund](https://wellcome.ac.uk/funding/schemes/open-research-fund).
+  Fund](https://wellcome.ac.uk/funding/schemes/open-research-fund)
 
 ## Why becoming an open research practitioners (2)
 
@@ -224,14 +221,19 @@ approach*](https://www.pnas.org/content/112/6/1645).
 
 From 
 
-> Gabriel Becker *An Imperfect Guide to Imperfect Reproducibility*
-> (2019) May Institute for Computational Proteomics
-> (https://gmbecker.github.io/MayInstituteKeynote2019/outline.html)
+> Gabriel Becker [*An Imperfect Guide to Imperfect
+> Reproducibility*](https://gmbecker.github.io/MayInstituteKeynote2019/outline.html)
+> May Institute for Computational Proteomics, Boston, 2019.
 
 
 `(Computational) Reproducibility Is Not The Point`
 
-## The goal is trust, verification and guarantees:
+But rather
+
+`The goal is trust, verification and guarantees`
+
+
+## The goal is trust, verification and guarantees
 
 - **Trust in Reporting** - result is accurately reported
 - **Trust in Implementation** - analysis code successfully implements
@@ -275,14 +277,14 @@ Biology 2015, 16:274.
 And career perspectives: [Faculty promotion must assess
 reproducibility](https://www.nature.com/news/faculty-promotion-must-assess-reproducibility-1.22596).
 
-## What can you do to improve trust in (your) research? {.build}
+## What can you do to improve trust in (your) research? 
 
 1. **Be an open research practitioners**
 2. **Be an reproducible research practitioners**
 
 Includes (but not limited to)
 
-## {.build}
+## 
 
 `Preprints are the best!`
 
@@ -299,6 +301,10 @@ and hence
 * Focus firstly on the validity of the research by inspecting the
   data, software and method. If the methods and/or data fail, the rest
   is meaningless.
+
+(See [The role of peer-reviewers in promoting open
+science](https://rawgit.com/lgatto/2017-03-30-OSC-peerreview/master/slides.html)
+for details.)
 
 ## 
 
@@ -328,7 +334,11 @@ Make sure that the data adhere to the
 
 `Findable and Accessible and Interoperable and Reusable`
 
+(and clearly, supplementary information in research manuscripts don't
+comply!)
+
 ## 
+
 As a quick note, my *ideal* review system would be one where
 
 1. Submit your data to a repository, where it gets checked (by
@@ -339,7 +349,10 @@ As a quick note, my *ideal* review system would be one where
    review the intro and methods, then only the results (to avoid
    positive results bias).
 
-##
+When talking about open research and peer review, one logical
+extension is **open peer review**. But ...
+
+## Open peer review
 
 When talking about open research and peer review, one logical
 extension is **open peer review**. 
@@ -359,23 +372,15 @@ collected and analysed, irrespective of the (positive or negative)
 result.
 
 
-
-See
-[https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000246](Open
-science challenges, benefits and tips in early career and beyond)
+See [Open science challenges, benefits and tips in early career and
+beyond](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000246)
 (2019).
 
-**Three challenges**
+**Three challenges**: Restrictions on flexibility, The time cost,
+Incentive structure isn’t in place yet.
 
-- Restrictions on flexibility
-- The time cost
-- Incentive structure isn’t in place yet
-
-**Three benefits**
-
-- Greater faith in research
-- New helpful systems (see technical solutions below)
-- Investment in your future
+**Three benefits**: Greater faith in research, New helpful systems
+(see technical solutions below), Investment in your future.
 
 ## Make allies 
 
@@ -387,14 +392,23 @@ science challenges, benefits and tips in early career and beyond)
 - Research Software engineers
 - On/off-line networking
 
-## 
+##
 
-Open research can lead to collaborative research (here's [one
+Open research **can** lead to **collaborative research**. The
+development of [`MSnbase`](https://github.com/lgatto/MSnbase/) is [an
 example](https://lgatto.github.io/msnbase-contribs/) I am very proud
-of).
+of.
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">The credit goes to the outstanding contributions and contributors!</p>&mdash; Laurent Gⓐtt⓪ (@lgatt0) <a href="https://twitter.com/lgatt0/status/1125497076241043456?ref_src=twsrc%5Etfw">May 6, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<br/>
+
+Collaborative work and cooperation is certainly one important concept
+that gravitates around open science/research (see the Mertonian norm
+of *communism*), but that isn't necessary nor sufficient for open
+science.
+
 
 ## Just do it!
 
@@ -422,6 +436,20 @@ Open and reproducible research doesn't work if it's an afterthought.
 
 - Document and **share** all artefacts related to your research (when
   possible): data, code, [protocols](https://www.protocols.io/), ...
+
+## Some examples of my own research 
+
+**Spatial proteomics software**: systematic and high throughput
+analysis of sub-cellular protein localisation (... which is all
+reproducible, by the way.)
+
+- Software: `pRoloc`.
+
+- `QSep`: quantify resolution of a spatial proteomics experiment (a
+  function within `pRoloc`).
+
+- `SpatialMap`: visualisation and data sharing platform for spatial
+  proteomics.
 
 ## Inclusivity
 
@@ -497,7 +525,7 @@ be vocal.
 ## Acknowledgements
 
 One of my advice was the **make allies**. I have been lucky to meet
-wonderful allies and friends along the path towards open and
+wonderful allies and inspiring friends along the path towards open and
 reproducible research that works for me. Among these, I would like to
 highlight [Corina Logan](https://twitter.com/LoganCorina), [Stephen
 Eglen](https://twitter.com/StephenEglen), [Marta
